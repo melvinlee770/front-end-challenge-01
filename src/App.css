@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+:root {
+  /* colour given in style-guide */
+  --Cyan: hsl(179, 62%, 43%);
+  --BrightYellow: hsl(71, 73%, 54%);
+  --LightGray: hsl(204, 43%, 93%);
+  --GrayishBlue: hsl(218, 22%, 67%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-family: [Karla];
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flexBox-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  background-color: var(--LightGray);
+  padding: 7%;
 }
 
-.App-link {
-  color: #61dafb;
+.topBox {
+  background-color: rgb(255, 255, 255);
+  padding: 3% 5% 3%;
+  flex: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.topBox-style {
+  font-weight: 400;
+}
+
+#topBox-title {
+  color: var(--Cyan);
+}
+
+#topBox-subtitle {
+  color: var(--BrightYellow);
+}
+
+#topBox-body {
+  color: rgb(173, 173, 173);
 }
