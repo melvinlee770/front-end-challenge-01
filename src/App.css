@@ -65,9 +65,17 @@
 
 /* CSS for the bottomRightBox */
 .bottomRightBox {
-  background-color: rgb(98, 255, 182);
+  background-color: rgb(55, 194, 164);
   padding: 1% 5% ;
   flex: 50%;
+}
+
+#bottomRightBox-title {
+  color: var(--LightGray);
+}
+
+#bottomRightBox-description {
+  color: hsla(215, 100%, 94%, 0.63);
 }
 
 

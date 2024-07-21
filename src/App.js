@@ -2,9 +2,9 @@ import "./App.css";
 
 function App() {
   return (
-// set a big container for all the content 
-    <div className="flexBox-container">  
-{/* the 1st content */}
+    // set a big container for all the content
+    <div className="flexBox-container">
+      {/* the 1st content */}
       <div className="topBox">
         <h1 className="topBox-style" id="topBox-title">
           Join our community
@@ -18,8 +18,8 @@ function App() {
           skills.
         </h3>
       </div>
-{/* set anothe small container inside the previous big container */}
-{/* the 1st content inside the smaller container but is the 2nd content in the big container */}
+      {/* set anothe small container inside the previous big container */}
+      {/* the 1st content inside the smaller container but is the 2nd content in the big container */}
       <div className="flexBox-sub-container">
         <div className="bottomLeftBox">
           <h2 id="bottomLeftBox-title">Monthly Subscription</h2>
@@ -29,9 +29,14 @@ function App() {
           </p>
           <p className="subscribINFO">Full access for less than $1 a day</p>
         </div>
-{/* the 2nd content inside the smaller container but is the 3rd content in teh big container */}
+        {/* the 2nd content inside the smaller container but is the 3rd content in teh big container */}
         <div className="bottomRightBox">
-          <h2>Why Us</h2>
+          <h2 id="bottomRightBox-title">Why Us</h2>
+          <p id="bottomRightBox-description">
+            Tutorials by industry experts Peer &amp; expert code review Coding
+            exercises Access to our GitHub repos Community forum Flashcard decks
+            New videos every week
+          </p>
         </div>
       </div>
     </div>
