@@ -2,7 +2,9 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="flexBox-container">
+// set a big container for all the content 
+    <div className="flexBox-container">  
+{/* the 1st content */}
       <div className="topBox">
         <h1 className="topBox-style" id="topBox-title">
           Join our community
@@ -16,10 +18,22 @@ function App() {
           skills.
         </h3>
       </div>
-      <div className="bottomLeftBox">
-        <h2>Monthly Subscription</h2>
+{/* set anothe small container inside the previous big container */}
+{/* the 1st content inside the smaller container but is the 2nd content in the big container */}
+      <div className="flexBox-sub-container">
+        <div className="bottomLeftBox">
+          <h2 id="bottomLeftBox-title">Monthly Subscription</h2>
+          <p>
+            <b id="subscribFEE">$29</b>{" "}
+            <text id="subscribPeriod">per month</text>
+          </p>
+          <p className="subscribINFO">Full access for less than $1 a day</p>
+        </div>
+{/* the 2nd content inside the smaller container but is the 3rd content in teh big container */}
+        <div className="bottomRightBox">
+          <h2>Why Us</h2>
+        </div>
       </div>
-      <div className="bottomRightBox"></div>
     </div>
   );
 }

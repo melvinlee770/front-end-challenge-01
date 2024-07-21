@@ -11,16 +11,15 @@
 }
 
 .flexBox-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: row;
   background-color: var(--LightGray);
   padding: 7%;
 }
 
+/* CSS for the topBox */
 .topBox {
   background-color: rgb(255, 255, 255);
   padding: 3% 5% 3%;
-  flex: 100%;
 }
 
 .topBox-style {
@@ -37,4 +36,46 @@
 
 #topBox-body {
   color: rgb(173, 173, 173);
+}
+
+/* both of the box below */
+.flexBox-sub-container {
+  display: flex;
+}
+
+/* CSS for the bottomLeftBox */
+.bottomLeftBox {
+  background-color: var(--Cyan);
+  font-weight: 400;
+  padding: 1% 5% ;
+  flex: 50%;
+}
+
+#bottomLeftBox-title, #subscribFEE, .subscribINFO {
+  color: var(--LightGray);
+}
+
+#subscribFEE {
+  font-size: 2rem;
+}
+
+#subscribPeriod {
+  color: hsla(215, 100%, 94%, 0.63);
+}
+
+/* CSS for the bottomRightBox */
+.bottomRightBox {
+  background-color: rgb(98, 255, 182);
+  padding: 1% 5% ;
+  flex: 50%;
+}
+
+
+
+/* - Mobile: 375px */
+@media (max-width: 375px) {
+  .flexBox-sub-container {
+    display: row;
+    flex-wrap: wrap;
+  }
 }
