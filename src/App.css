@@ -8,6 +8,20 @@
 
 * {
   font-family: [Karla];
+  background-color: var(--LightGray);
+}
+
+#topBox-title,
+#topBox-subtitle,
+#topBox-body,
+#bottomLeftBox-title,
+.subscribINFO,
+#bottomRightBox-title,
+#bottomRightBox-description,
+.FEEBox,
+#subscribFEE,
+#subscribPeriod{
+  background-color: transparent;
 }
 
 .flexBox-container {
@@ -100,5 +114,4 @@
     display: row;
     flex-wrap: wrap;
   }
- 
 }
