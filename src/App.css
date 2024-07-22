@@ -47,11 +47,13 @@
 .bottomLeftBox {
   background-color: var(--Cyan);
   font-weight: 400;
-  padding: 1% 5% ;
+  padding: 6% 5%;
   flex: 50%;
 }
 
-#bottomLeftBox-title, #subscribFEE, .subscribINFO {
+#bottomLeftBox-title,
+#subscribFEE,
+.subscribINFO {
   color: var(--LightGray);
 }
 
@@ -63,10 +65,24 @@
   color: hsla(215, 100%, 94%, 0.63);
 }
 
+.signUpButton {
+  border: 0;
+  color: rgb(255, 255, 255);
+  background-color: var(--BrightYellow);
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5% 25%;
+}
+
+.signUpButton:hover {
+  color: var(--BrightYellow);
+  background-color: rgb(255, 255, 255);
+}
+
 /* CSS for the bottomRightBox */
 .bottomRightBox {
   background-color: rgb(55, 194, 164);
-  padding: 1% 5% ;
+  padding: 6% 5%;
   flex: 50%;
 }
 
@@ -78,12 +94,11 @@
   color: hsla(215, 100%, 94%, 0.63);
 }
 
-
-
 /* - Mobile: 375px */
 @media (max-width: 375px) {
   .flexBox-sub-container {
     display: row;
     flex-wrap: wrap;
   }
+ 
 }

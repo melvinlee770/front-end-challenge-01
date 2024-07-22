@@ -28,6 +28,7 @@ function App() {
             <text id="subscribPeriod">per month</text>
           </p>
           <p className="subscribINFO">Full access for less than $1 a day</p>
+          <button className="signUpButton" type="button">Sign Up</button>
         </div>
         {/* the 2nd content inside the smaller container but is the 3rd content in teh big container */}
         <div className="bottomRightBox">
