@@ -23,10 +23,10 @@ function App() {
       <div className="flexBox-sub-container">
         <div className="bottomLeftBox">
           <h2 id="bottomLeftBox-title">Monthly Subscription</h2>
-          <p className="FEEBox">
-            <b id="subscribFEE">$29</b>{" "}
+          <div className="FEEBox">
+            <b id="subscribFEE">$30</b>{" "}
             <text id="subscribPeriod">per month</text>
-          </p>
+          </div>
           <p className="subscribINFO">Full access for less than $1 a day</p>
           <button className="signUpButton" type="button">Sign Up</button>
         </div>
